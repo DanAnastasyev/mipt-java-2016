@@ -45,28 +45,32 @@
 
 Обязательным является прохождение проверки Maven Checkstyle. Она происходит при запуске всех тестов (например, с помощью `mvn test` или по клавише test во вкладке Maven Projects).
 
-1. [Java vs C++; Работа с исключениям и I/O](https://yadi.sk/d/meyw4Nv1wUrzc)  
+1. [Java vs C++; Работа с исключениям и I/O](https://goo.gl/wps6dA)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar1)  
 [Доп семинар](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/Seminar%201.5%20Notes.md)
 Доп. литература: [Head First Изучаем Java](http://www.ozon.ru/context/detail/id/7821666/)
 
-2. [Паттерны проектирования](https://yadi.sk/d/Clpl7NfhwuYod)  
+2. [Паттерны проектирования](https://goo.gl/QxbbNf)  
 Доп. литература: [Head First Паттерны проектирования](https://www.ozon.ru/context/detail/id/20216992/)
 
-3. [Строки и обёртки над примитивными типами в Java. Антипаттерны](https://yadi.sk/d/nhdo_dFsx7JnZ)  
+3. [Строки и обёртки над примитивными типами в Java. Антипаттерны](https://goo.gl/snYk3h)  
 Доп. литература: [Чистый код](http://www.ozon.ru/context/detail/id/21916535/)
 
-4. [Повторное использование кода в Java. Многопоточность в Java](https://yadi.sk/d/nitO2OJuxcMAw)
+4. [Повторное использование кода в Java. Многопоточность в Java](https://goo.gl/w8fvaQ)
 
-5. [Средства синхронизации в Java](https://yadi.sk/d/2YAOFlpSxx73h)  
+5. [Средства синхронизации в Java](https://goo.gl/7UyMHV)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar5)
 
-6. [Рефлексия и сборка мусора в Java](https://yadi.sk/d/1cpd_baDyHELV)  
+6. [Рефлексия и сборка мусора в Java](https://goo.gl/SsM7xX)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar6)  
 [Хорошая статья про ссылки в Java](http://www.kdgregory.com/?page=java.refobj)
 
-7. [Lambdas & Streams](https://yadi.sk/d/uJ4A7PrRyhL2e)  
+7. [Lambdas & Streams](https://goo.gl/1lSynS)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar7)
+
+8. [Spring Framework Core](https://goo.gl/rTX8BC)  
+[Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring)  
+Доп. литература: [Spring in Action](https://www.manning.com/books/spring-in-action-fourth-edition)
 
 #### Рекомендуемая литература
 
