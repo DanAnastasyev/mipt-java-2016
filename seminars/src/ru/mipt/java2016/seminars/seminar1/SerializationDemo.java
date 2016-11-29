@@ -12,6 +12,36 @@ import java.io.Serializable;
  * Пример работы с сериализацией
  */
 public class SerializationDemo {
+    public static void main(String[] args) {
+        UserProfile profile = new UserProfile("Vasya", 105.0);
+        profile.setId(12345);
+
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(
+                new FileOutputStream("ObjectSerialization.txt"))) {
+            outputStream.writeObject(profile);
+        } catch (FileNotFoundException e) {
+            System.err.println("File not found: " + e);
+        } catch (IOException e) {
+            System.err.println("I/O error: " + e);
+        }
+
+        try (ObjectInputStream inputStream = new ObjectInputStream(
+                new FileInputStream("ObjectSerialization.txt"))) {
+            UserProfile deserializedProfile = (UserProfile) inputStream.readObject();
+            System.out.println("Deserialized profile:");
+            System.out.println("Name: " + deserializedProfile.name);
+            System.out.println("Id: " + deserializedProfile.id);
+            System.out.println("Rating: " + deserializedProfile.rating);
+        } catch (FileNotFoundException e) {
+            System.err.println("File not found: " + e);
+        } catch (IOException e) {
+            System.err.println("I/O error: " + e);
+        } catch (ClassNotFoundException e) {
+            System.err.println("Class not found: " + e);
+        }
+    }
+
+
     private static class UserProfile implements Serializable {
         private String name;
         private transient int id; // не сериализуется
@@ -24,37 +54,6 @@ public class SerializationDemo {
 
         void setId(int id) {
             this.id = id;
-        }
-    }
-
-    public static void main(String[] args) {
-        UserProfile profile = new UserProfile("Vasya", 105.0);
-        profile.setId(12345);
-
-        try (ObjectOutputStream outputStream =
-                     new ObjectOutputStream(
-                             new FileOutputStream("ObjectSerialization.txt"))) {
-            outputStream.writeObject(profile);
-        } catch (FileNotFoundException e) {
-            System.err.println("File not found: " + e);
-        } catch (IOException e) {
-            System.err.println("I/O error: " + e);
-        }
-
-        try (ObjectInputStream inputStream =
-                     new ObjectInputStream(
-                             new FileInputStream("ObjectSerialization.txt"))) {
-            UserProfile deserializedProfile = (UserProfile) inputStream.readObject();
-            System.out.println("Deserialized profile:");
-            System.out.println("Name: " + deserializedProfile.name);
-            System.out.println("Id: " + deserializedProfile.id);
-            System.out.println("Rating: " + deserializedProfile.rating);
-        } catch (FileNotFoundException e) {
-            System.err.println("File not found: " + e);
-        } catch (IOException e) {
-            System.err.println("I/O error: " + e);
-        } catch (ClassNotFoundException e) {
-            System.err.println("Class not found: " + e);
         }
     }
 }

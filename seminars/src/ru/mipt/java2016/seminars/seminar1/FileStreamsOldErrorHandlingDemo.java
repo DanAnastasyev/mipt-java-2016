@@ -1,7 +1,6 @@
 package ru.mipt.java2016.seminars.seminar1;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 

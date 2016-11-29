@@ -16,8 +16,7 @@ public class FileStreamsDecoratorsDemo {
     public static void main(String[] args) {
         // Оборачиваем в BufferedInputStream
         String path = FileStreamsDecoratorsDemo.class.getSimpleName() + ".java";
-        try (InputStream inputStream =
-                     new BufferedInputStream(new FileInputStream(path))) {
+        try (InputStream inputStream = new BufferedInputStream(new FileInputStream(path))) {
             int fileSize = inputStream.available();
 
             byte[] buffer = new byte[fileSize / 4];
@@ -31,8 +30,8 @@ public class FileStreamsDecoratorsDemo {
         }
 
         // Запись в файл
-        try (DataOutputStream outputStream =
-                     new DataOutputStream(new FileOutputStream("PODTypes.txt"))) {
+        try (DataOutputStream outputStream = new DataOutputStream(
+                new FileOutputStream("PODTypes.txt"))) {
             outputStream.writeInt(15);
             outputStream.writeDouble(15.5);
         } catch (FileNotFoundException e) {
@@ -43,10 +42,8 @@ public class FileStreamsDecoratorsDemo {
 
         // Чтение записанного
         // Можно оборачивать сразу несколькими декораторами
-        try (DataInputStream inputStream =
-                     new DataInputStream(
-                             new BufferedInputStream(
-                                     new FileInputStream("PODTypes.txt")))) {
+        try (DataInputStream inputStream = new DataInputStream(
+                new BufferedInputStream(new FileInputStream("PODTypes.txt")))) {
             System.out.println(inputStream.readInt());
             System.out.println(inputStream.readDouble());
         } catch (FileNotFoundException e) {

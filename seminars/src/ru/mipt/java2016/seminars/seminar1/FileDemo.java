@@ -14,8 +14,8 @@ public class FileDemo {
             listRecursive(parentFile);
 
             // Использование File.separator
-            System.out.println("My file: " + parentFile.getAbsolutePath() +
-                    File.separator + filePath);
+            System.out.println(
+                    "My file: " + parentFile.getAbsolutePath() + File.separator + filePath);
         }
     }
 

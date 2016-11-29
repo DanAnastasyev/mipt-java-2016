@@ -36,10 +36,8 @@ public class FileStreamsDemo {
             System.err.println("I/O error: " + e);
         }
 
-        String inputString = "package ru.mipt.java2016.seminars.seminar1;\n"
-                + "\n"
-                + "import java.io.FileInputStream;\n"
-                + "import java.io.FileOutputStream;\n"
+        String inputString = "package ru.mipt.java2016.seminars.seminar1;\n" + "\n"
+                + "import java.io.FileInputStream;\n" + "import java.io.FileOutputStream;\n"
                 + "import java.o.IOException;";
 
         // Запись в файл
