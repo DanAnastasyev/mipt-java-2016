@@ -45,6 +45,7 @@
 
 Обязательным является прохождение проверки Maven Checkstyle. Она происходит при запуске всех тестов (например, с помощью `mvn test` или по клавише test во вкладке Maven Projects).
 
+##### Материалы семинаров:
 1. [Java vs C++; Работа с исключениям и I/O](https://goo.gl/wps6dA)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar1)  
 [Доп семинар](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/Seminar%201.5%20Notes.md)
@@ -74,6 +75,9 @@
 
 9. [REST & DB](https://goo.gl/iYKhFg)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-rest)
+
+##### Дополнительные задачи
+Для тех, кому хочется чуть поднять оценку или просто поразвлекаться с джавой, предлагаю набор [дополнительных задач](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/AdditionalTasks.md). Баллы за каждую задачу указаны в скобках - они будут прибавляться к карме.
 
 #### Рекомендуемая литература
 
