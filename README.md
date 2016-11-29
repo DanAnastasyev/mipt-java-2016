@@ -72,6 +72,9 @@
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring)  
 Доп. литература: [Spring in Action](https://www.manning.com/books/spring-in-action-fourth-edition)
 
+9. [REST & DB](https://goo.gl/iYKhFg)  
+[Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-rest)
+
 #### Рекомендуемая литература
 
 * Кей Хорстманн - [Java. Библиотека профессионала. Том 1. Основы (десятое издание)](https://www.ozon.ru/context/detail/id/137377512/).
