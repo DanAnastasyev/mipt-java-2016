@@ -76,6 +76,11 @@
 9. [REST & DB](https://goo.gl/iYKhFg)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-rest)
 
+10. [MVC](https://goo.gl/YcOQrb)  
+[Пример с Spring MVC](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-mvc)  
+[Пример с WebSockets и JS-клиентом](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-chat)  
+[Пример голого MVC](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar10/mvc)
+
 ##### Дополнительные задачи
 Для тех, кому хочется чуть поднять оценку или просто поразвлекаться с джавой, предлагаю набор [дополнительных задач](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/AdditionalTasks.md). Баллы за каждую задачу указаны в скобках - они будут прибавляться к карме.
 
