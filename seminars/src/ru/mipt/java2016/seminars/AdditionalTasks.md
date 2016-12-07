@@ -126,11 +126,11 @@ public interface ThreadPool {
 ## Кэширование (0.5)
 Реализовать механизм кэширования на `SoftReference`. Предлагается следующий интерфейс:
 ```java
-public interface Cache<K,V> {
+public interface Cache<K, V> {
     /**
      * Возвращает соответствующее значение, если оно ещё в кэше, иначе null
      */
-    V getIfPresent(Object key);
+    V getIfPresent(K key);
 
     /**
      * Сохраняет value по соответствующему ключу key 
