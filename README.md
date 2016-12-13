@@ -81,6 +81,8 @@
 [Пример с WebSockets и JS-клиентом](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-chat)  
 [Пример голого MVC](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar10/mvc)
 
+11. [Повторение пройденного](https://goo.gl/bjZwkn)
+
 ##### Дополнительные задачи
 Для тех, кому хочется чуть поднять оценку или просто поразвлекаться с джавой, предлагаю набор [дополнительных задач](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/AdditionalTasks.md). Баллы за каждую задачу указаны в скобках - они будут прибавляться к карме.
 
