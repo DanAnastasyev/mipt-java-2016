@@ -48,22 +48,22 @@
 ##### Материалы семинаров:
 1. [Java vs C++; Работа с исключениям и I/O](https://goo.gl/wps6dA)  
 [Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar1)  
-[Доп семинар](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/Seminar%201.5%20Notes.md)
-Доп. литература: [Head First Изучаем Java](http://www.ozon.ru/context/detail/id/7821666/)
+[Доп семинар](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/Seminar%201.5%20Notes.md)  
+Доп. литература: [Head First Изучаем Java](http://www.ozon.ru/context/detail/id/7821666/)  
 ["JVM: краткий курс общей анатомии"](https://youtu.be/JbLClSMRK_I)
 
 2. [Паттерны проектирования](https://goo.gl/QxbbNf)  
-Доп. литература: [Head First Паттерны проектирования](https://www.ozon.ru/context/detail/id/20216992/)
+Доп. литература: [Head First Паттерны проектирования](https://www.ozon.ru/context/detail/id/20216992/)  
 [Коллекция паттернов](http://java-design-patterns.com/patterns/)
 
 3. [Строки и обёртки над примитивными типами в Java. Антипаттерны](https://goo.gl/snYk3h)  
-Доп. литература: [Чистый код](http://www.ozon.ru/context/detail/id/21916535/)
+Доп. литература: [Чистый код](http://www.ozon.ru/context/detail/id/21916535/)  
 [Коллекция антипаттернов](https://sourcemaking.com/antipatterns)
 
 4. [Повторное использование кода в Java. Многопоточность в Java](https://goo.gl/w8fvaQ)
 
 5. [Средства синхронизации в Java](https://goo.gl/7UyMHV)  
-[Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar5)
+[Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar5)  
 [Java Memory Model (Shipilev)](https://shipilev.net/#jmm)
 
 6. [Рефлексия и сборка мусора в Java](https://goo.gl/SsM7xX)  
@@ -71,7 +71,7 @@
 [Хорошая статья про ссылки в Java](http://www.kdgregory.com/?page=java.refobj)
 
 7. [Lambdas & Streams](https://doc.co/P4Dhx3)  
-[Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar7)
+[Примеры кода](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar7)  
 [Видео на тему](https://youtu.be/1OpAgZvYXLQ)
 
 8. [Spring Framework Core](https://goo.gl/rTX8BC)  
@@ -89,9 +89,9 @@
 11. [Повторение пройденного](https://doc.co/zbStYE)
 
 ##### На посмотреть
-[Студенческий синдром: почему мы все делаем в последний момент?](https://youtu.be/qBzPXXsQOeo)
-[Get Past the Syntax, the Real Scare's in the Semantics](https://youtu.be/Uw_wohRseOw)
-[Core Design Principles for Software Developers](https://youtu.be/llGgO74uXMI)
+[Студенческий синдром: почему мы все делаем в последний момент?](https://youtu.be/qBzPXXsQOeo)  
+[Get Past the Syntax, the Real Scare's in the Semantics](https://youtu.be/Uw_wohRseOw)  
+[Core Design Principles for Software Developers](https://youtu.be/llGgO74uXMI)  
 
 ##### Дополнительные задачи
 Для тех, кому хочется чуть поднять оценку или просто поразвлекаться с джавой, предлагаю набор [дополнительных задач](https://github.com/DanAnastasyev/mipt-java-2016/blob/master/seminars/src/ru/mipt/java2016/seminars/AdditionalTasks.md). Баллы за каждую задачу указаны в скобках - они будут прибавляться к карме.
