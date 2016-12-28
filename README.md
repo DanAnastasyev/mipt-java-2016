@@ -84,7 +84,7 @@
 10. [MVC](https://goo.gl/YcOQrb)  
 [Пример с Spring MVC](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-mvc)  
 [Пример с WebSockets и JS-клиентом](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/spring-chat)  
-[Пример голого MVC](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar10/mvc)
+[Пример игрушечного MVC на Observable](https://github.com/DanAnastasyev/mipt-java-2016/tree/master/seminars/src/ru/mipt/java2016/seminars/seminar10/mvc)
 
 11. [Повторение пройденного](https://doc.co/zbStYE)
 
